@@ -1,6 +1,5 @@
 var {encryptByDES, decryptByDES, string2Hex} = require('./des')
 
-
 console.log()
 const readline = require('readline').createInterface({
     input: process.stdin,
@@ -24,6 +23,4 @@ readline.question(`请输入8个要加密的字符:\n`, message1 => {
             readline.close()
         })
     })
-
 })
-
